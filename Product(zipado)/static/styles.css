@@ -1,0 +1,109 @@
+/* Define o estilo geral */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: linear-gradient(to right, #d67f5c, #f0d6c0);
+    color: #5D4037; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+
+h1 {
+    margin: 20px;
+    color: #9e4628;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #FFF1E6; 
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 12px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+button {
+    background-color: #F9C5D1; 
+    color: #5D4037;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+}
+
+button:hover {
+    background-color: #F6A5B6; 
+}
+
+button:active {
+    background-color: #E5739E; 
+}
+
+.pagination {
+    margin: 20px;
+}
+
+.pagination a {
+    color: #9e4628;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+.pagination span {
+    font-weight: bold;
+    color: #5D4037;
+}
+
+.produto-detalhes {
+    background-color: #FFF1E6;
+    border: 1px solid #F9C5D1;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none; 
+
+}
+
+.produto-detalhes.visible {
+    display: block;
+}
+
+.produto-detalhes h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    color: #9e4628;
+
+}
+
+.produto-detalhes p {
+    color: #5D4037;
+    font-size: 1rem;
+}
+
+.produto-detalhes button {
+    margin-top: 10px;
+    background-color: #F9C5D1;
+    color: #5D4037;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Lista de Produtos da Maymay</title>
+</head>
+<body>
+    <h1>📚Lista de Produtos - Página {{ page }}</h1> <!---a cada págoma irá aparecer o número correspondente-->
+    <ul id="produto-lista"> <!--lista html-->
+        {% for produto in produtos_on_page %} <!----percorre os produtos-->
+            <li>
+                <strong>{{ produto['nome'] }}</strong><br> <!--exibe o nome do produto em negrito-->
+                <button class="detalhes-btn" data-id="{{ produto['id'] }}" data-descricao="{{ produto['descricao'] }}"> Ver Detalhes <!--cada botão exibe o id e a descrição do produto-->
+                </button>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <div class="pagination">
+        {% if page > 1 %} <!--condição: Só exibe o link "Página Anterior" se não estiver na primeria página-->
+            <a href="{{ url_for('arraso.page1', page=page-1) }}" id="prev">Página Anterior</a>
+        {% endif %}
+        <span>Página {{ page }}</span>
+        {% if page < total_pages %} <!--condição: Só exibe o link "Próxima Página" se ainda tiver páginas seguintes--></total_pages>
+            <a href="{{ url_for('arraso.page1', page=page+1) }}" id="next">Próxima Página</a>
+        {% endif %}
+    </div>
+
+    <!--exibição dos detalhes dos produtos-->
+    <div class="produto-detalhes" id="produto-detalhes">
+        <h2>Detalhes do Produto</h2>
+        <p id="descricao-produto"></p>
+        <button id="fechar-detalhes">Fechar</button> 
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

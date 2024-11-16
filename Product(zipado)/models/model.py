@@ -1,0 +1,17 @@
+# minha lista de produtos 
+produtos = [
+    #livros religiosos 
+    {"id": 1, "nome": "✝️ Bíblia Sagrada", "descricao": "Palavra de Deus escrita por diferentes autores mediante revelação do Espírito Santo."},
+    {"id": 2, "nome": "✝️ Cristianismo Puro e Simples", "descricao": "Lewis apresenta os principais elementos da cosmovisão cristã."},
+    {"id": 3, "nome": "✝️ O Peregrino", "descricao": "O peregrino é uma história escrita por John Bunyan e conta a história de Cristão, um jovem atormentado pelo desejo de se ver livre do fardo pesado que carrega nas costas, e segue sua jornada por um caminho estreito, pelo qual se pode alcançar a Cidade Celestial."},
+    #livros fantasiosos 
+    {"id": 4, "nome": "✨ Contos de Grimm - Volume 1", "descricao": "Histórias recolhidas do folclore alemão, no século XIX, pelos irmãos Jacob Ludwig Carl e Wilhelm Carl Grimm, mais popularmente conhecidos como “Irmãos Grimm”. Neste volume, clássicos como João e Maria e Chapeuzinho Vermelho, além de muitas outras histórias emocionantes."},
+    {"id": 5, "nome": "✨ O Pequeno Príncipe", "descricao": "Escrito por Antoine de Saint-Exupéry, narra acontecimentos vividos por um menino originário do asteroide B 612. Após a queda de um avião no deserto do Saara, o piloto faz amizade com essa sábia criança, que consegue ver o que os adultos são incapazes."},
+    {"id": 6, "nome": "✨ O Príncipe Cruel - Volume 1", "descricao": "Escrita por Holly Black. Envolvida em intrigas e traições do palácio, Jude descobre sua própria capacidade para truques e derramamento de sangue. Mas, com a ameaça de uma guerra civil e o Reino das Fadas por um fio, Jude precisará arriscar sua vida em uma perigosa aliança para salvar suas irmãs, e o próprio Reino."},
+    #livros românticos
+    {"id": 7, "nome": "❤️ Orgulho e Preconceito", "descricao": "A história de Orgulho e Preconceito, um clássico de Jane Austen, gira em torno das cinco irmãs Bennet, que viviam na área rural do interior da Inglaterra, no século XVIII. Aborda a questão da sucessão em uma família sem herdeiros homens, dentro de uma sociedade patriarcal, onde o casamento era fundamental para as mulheres."},
+    {"id": 9, "nome": "❤️ A Biblioteca da meia-noite", "descricao": "A Biblioteca da Meia-Noite é um romance de Matt Haig que conta a história de Nora Seed, uma mulher de 35 anos que se arrepende de suas escolhas passadas. A obra é sobre a busca pelo rumo certo na vida e os caminhos que ela pode tomar"},
+    {"id": 10, "nome": "❤️ É Assim que Acaba", "descricao": "Em É assim que acaba, Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela. Quando os dois se apaixonam, Lily se vê no meio de um relacionamento turbulento que não é o que ela esperava. Mas será que ela conseguirá enxergar isso, por mais doloroso que seja?"},
+    #livro diverso 
+    {"id": 11, "nome": "⚔️ A Arte da Guerra", "descricao": "A Arte da Guerra é um tratado militar e filosófico escrito pelo general, estrategista e filósofo chinês Sun Tzu (544-496 a.C.). O livro é considerado um dos mais antigos tratados de guerra da história e é reconhecido por sua sabedoria atemporal. A obra reúne estratégias e táticas militares para vencer o inimigo, com base no conhecimento da natureza humana"}
+]
